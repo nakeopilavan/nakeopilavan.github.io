@@ -3,10 +3,6 @@
 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 
-body{
-    background-color: aqua;
-    padding 16px;
-}
 
 h1 {
     font-family: 'Lato', sans-serif;
@@ -14,5 +10,88 @@ h1 {
 
 p {
     font-family: 'Oswald', sans-serif;
-    font-size: 10px;
+    font-size: 15px;
+    text-align: center;
+
+}
+
+div.titleLine {
+    background-color: lightblue;
+    font-size: 30px;
+    text-align: center;
+}
+h1.iam{
+    text-align:center;
+}
+div.box{
+    box-sizing: border-box;
+    height:450px;
+    width:450px;
+}
+div.box1{
+    background-color: blueviolet;
+    height:150px;
+    width:150px;
+}
+div.box2{
+    background-color: red;
+    height:150px;
+    width:150px;
+    position: relative;
+    bottom:150px;
+    left:150px;
+}
+div.box3{
+    background-color: fuchsia;
+    height:150px;
+    width:150px;
+    position: relative;
+    bottom:300px;
+    left:300px;
+}
+div.box4{
+    background-color: cyan;
+    height:150px;
+    width:150px;
+    position: relative;
+    bottom:300px;
+    left:300px;
+}
+div.box5{
+    background-color: palegreen;
+    height:150px;
+    width:150px;
+    position: relative;
+    bottom:300px;
+    left:300px;
+}
+div.box6{
+    background-color: royalblue;
+    height:150px;
+    width:150px;
+    position: relative;
+    bottom:600px;
+}
+div.box7{
+    background-color: black;
+    height:150px;
+    width:150px;
+    position: relative;
+    bottom:750px;
+    left:150px;
+}
+div.box8{
+    background-color: maroon;
+    height:150px;
+    width:150px;
+    position: relative;
+    bottom:750px;
+}
+div.box9{
+    background-color: gray;
+    height:150px;
+    width:150px;
+    position: relative;
+    bottom:900px;
+    left:150px;
 }
