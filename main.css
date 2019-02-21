@@ -12,7 +12,6 @@ p {
     font-family: 'Oswald', sans-serif;
     font-size: 15px;
     text-align: center;
-
 }
 
 div.titleLine {
@@ -23,75 +22,41 @@ div.titleLine {
 h1.iam{
     text-align:center;
 }
-div.box{
-    box-sizing: border-box;
-    height:450px;
-    width:450px;
+.container{
+    --height: 500px;
+    --width: 500px;
+    height:var(--height);
+    width:var(--width);
 }
-div.box1{
-    background-color: blueviolet;
-    height:150px;
-    width:150px;
+.box{
+    height:calc(var(--height)/3);
+    width:calc(var(--width)/3);
+    float: left;
 }
-div.box2{
+.blue{
+    background-color:blue;
+}
+.red{
     background-color: red;
-    height:150px;
-    width:150px;
-    position: relative;
-    bottom:150px;
-    left:150px;
 }
-div.box3{
-    background-color: fuchsia;
-    height:150px;
-    width:150px;
-    position: relative;
-    bottom:300px;
-    left:300px;
+.purple{
+    background-color: purple;
 }
-div.box4{
-    background-color: cyan;
-    height:150px;
-    width:150px;
-    position: relative;
-    bottom:300px;
-    left:300px;
+.green{
+    background-color: green;
 }
-div.box5{
-    background-color: palegreen;
-    height:150px;
-    width:150px;
-    position: relative;
-    bottom:300px;
-    left:300px;
+.yellow{
+    background-color: yellow;
 }
-div.box6{
-    background-color: royalblue;
-    height:150px;
-    width:150px;
-    position: relative;
-    bottom:600px;
+.pink{
+    background-color: pink;
 }
-div.box7{
-    background-color: black;
-    height:150px;
-    width:150px;
-    position: relative;
-    bottom:750px;
-    left:150px;
+.lightgreen{
+    background-color: lightgreen;
 }
-div.box8{
-    background-color: maroon;
-    height:150px;
-    width:150px;
-    position: relative;
-    bottom:750px;
+.lightcoral{
+    background-color: lightcoral;
 }
-div.box9{
+.gray{
     background-color: gray;
-    height:150px;
-    width:150px;
-    position: relative;
-    bottom:900px;
-    left:150px;
 }
