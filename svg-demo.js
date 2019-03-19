@@ -23,3 +23,21 @@ for(var i = 0; i < 9; i++){
     drawFlower(x, y,'yellow');
 }
 
+function drawBee(x,y){
+    var wing1 = draw.ellipse(40, 50);
+    var wing2 = draw.ellipse(40, 50);
+    wing1.center(x-10,y-40).rotate(135).opacity(0.1);
+    wing2.center(x+10,y-40).rotate(45).opacity(0.1);
+    draw.ellipse(70, 50).fill('yellow').center(x,y);
+    draw.circle(45).center(x-35, y);
+}
+
+var bee = drawBee(500,100);
+
+var test = draw.circle(40);
+function move(){
+    test.animate(6000).move(x-20,y-20).after(function() {
+        test.animate().move(0,0);
+    });
+}
+test.on('click',move);
