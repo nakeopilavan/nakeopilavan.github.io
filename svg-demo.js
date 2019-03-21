@@ -30,8 +30,6 @@ function drawBee(x,y){
     wing2.center(x+10,y-40).rotate(45).opacity(0.1);
     var body = draw.ellipse(70, 50).fill('yellow').center(x,y);
     var head = draw.circle(45).center(x-35, y);
-    wing1.add(wing2)
-    console.log(wing1);
 }
 drawBee(100,100)
 function moveToPos(e){
