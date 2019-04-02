@@ -2,7 +2,7 @@ var w = 600;
 var h = 600;
 var x = w/2;
 var y = h/2;
-var numRows = 1;
+var numRows = 8;
 var bL = 50;
 var bH = 30;
 
